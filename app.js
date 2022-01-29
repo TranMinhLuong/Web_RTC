@@ -21,7 +21,7 @@ app.use(routerLogin);
 app.use(routerLounge);
 app.use(routerRoomCall);
 
-app.get("/", (req, res) => {
+app.get("/aaa", (req, res) => {
   res.render("frontend/index.ejs", { roomID: req.params.room });
 });
 
